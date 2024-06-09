@@ -135,7 +135,7 @@ const RaffleGame = () => {
             return (
               <button
                 key={number}
-                className={`border text-[20px] p-2 rounded-[10px] p-2 ${selectedNumbers.includes(number)? 'bg-gray-300 cursor-not-allowed' : 'bg-gray-gradient text-white'}`}
+                className={`border  p-2 rounded-[10px] p-2 ${selectedNumbers.includes(number)? 'bg-gray-300 cursor-not-allowed' : 'bg-gray-gradient text-white'}`}
                 onClick={() =>!selectedNumbers.includes(number)? selectNumber(number) : deselectNumber(number)}
                 disabled={selectedNumbers.includes(number)}
               >
