@@ -119,7 +119,7 @@ const RaffleGame = () => {
   return (
     <div className="container mx-auto p-4">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-          Sorteio<span className="text-gradient"> MORAL</span>{" "}
+          Sorteio<span className="text-gradient"> EUREKAE</span>{" "}
           </h1>
       <div className="mb-4">
         <input
